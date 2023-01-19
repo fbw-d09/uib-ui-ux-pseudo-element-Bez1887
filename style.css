@@ -1,0 +1,55 @@
+li {
+}
+
+.icon ul li::before {
+  display: inline-block;
+  background-size: contain;
+  content: "";
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  background-image: url(./images/quotes.png);
+}
+.icon ul li::after {
+  display: inline-block;
+  background-size: contain;
+  content: "";
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  background-image: url(./images/quotes.png);
+}
+
+.pdf ::after {
+  display: inline-block;
+  background-size: contain;
+
+  content: "";
+  margin-left: 15px;
+  background-image: url(./images/pdf.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+}
+
+.word1 ::after {
+  display: inline-block;
+  background-size: contain;
+  content: "";
+  margin-left: 18px;
+  background-image: url(./images/ms-excel.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+}
+
+.word2 ::after {
+  display: inline-block;
+  background-size: contain;
+  margin-left: 15px;
+  content: "";
+  background-image: url(./images/ms-word.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+}
